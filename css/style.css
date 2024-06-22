@@ -375,6 +375,35 @@ section {
     font-size: 18px;
     font-weight: 500;
 }
+.content-col{
+    width: 100%;
+}
+.image-col{
+    width: 60%;
+}
+.hobby .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.gallery img{
+    max-width: 350px;
+    margin: 10px;
+}
+.content-col h1{
+    font-size: 7vmin;
+    color: #fff;
+    padding: 10px;
+}
+.content-col span{
+    color: darkred;
+}
+.content-col p{
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+}
 
 .contact{
     display: grid;
